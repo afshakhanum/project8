@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%) ;
+}
+.content1{
+    padding: 30px 20px 0px 20px;
+}
+.content2{
+    padding: 20px 20px 20px 20px;
+    align-content: center;
+}
+.para1{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+p{
+    color: white;
+    font-family: Poppins;
+    font-weight: 400;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+}
+.b1{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    border: 1px solid hsl(248, 32%, 49%) ;
+    padding: 10px 60px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.form{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 20px 100px 20px ;
+    line-height: 20px;
+    align-content: center;
+}
+input{
+    width: 250px;
+    height: 30px;
+    line-height: 15px;
+    padding-left: 15px;
+    color: hsl(246, 25%, 77%);
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+}
+.b2{
+    background-color: hsl(154, 59%, 51%);
+    border: 1px solid hsl(154, 59%, 51%) ;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+    align-content: center;
+    padding: 10px 40px;
+    position: absolute;
+    top: 520px;
+    width: 250px;
+}
+::-webkit-input-placeholder{
+    color: hsl(249, 10%, 26%) ;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+}
+.s1{
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    font-family: 'Poppins';
+    font-size: 10spx;
+    position: absolute;
+    top: 550px;
+    padding: 20px 20px;
+}
+span{
+    text-align: center;
+    color: red;
+    font-family: 'Poppins';
+    font-size: 10px;
+    position: absolute;
+    top: 580px;
+    padding: 0px 80px;
+}
+@media screen and (min-width :1000px) {
+    body{
+        background-image: url(images/bg-intro-desktop.png);
+        background-color:hsl(0, 100%, 74%) ; ;
+    }
+    .content1{
+        float: left;
+        width: 40vw;
+        height: 80vh;
+        padding: 200px 50px 50px 150px;
+    }
+    .content2{
+        float: right;
+        width: 40vw;
+        height: 80vh;
+        margin-right: 150px;
+        margin-top: 100px;
+    }
+    .para1{
+        font-size: 2.5rem;
+    }
+    p{
+        width: 500px;
+        text-align:left;
+        position: absolute;
+        top: 350px;
+        left: 150px;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .b1{
+        width: 440px;
+    }
+    .form{
+        width: 440px;
+    }
+    input{
+        width: 400px;
+    }
+    .b2{
+        width: 400px;
+        position: absolute;
+        top: 400px;
+    }
+    .s1{
+        padding: 20px 30px;
+        position: absolute;
+        top: 430px;
+        font-size: 15px;
+    }
+    span{
+        padding: 0px 130px;
+        position: absolute;
+        top: 470px;
+        font-size: 15px;
+    }
+}
+
